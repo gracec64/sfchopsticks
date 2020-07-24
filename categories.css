@@ -1,0 +1,46 @@
+
+.padding {
+  padding-top: 25px;
+}
+.title {
+  text-align: center;
+}
+
+.picture {
+  text-align: center;
+}
+.center {
+  justify-content: center;
+}
+
+.btn {
+  width: 30%;
+}
+
+.bo {
+  margin-left: 5%;
+}
+
+.boba {
+  margin-left: 21%;
+}
+
+.pho {
+  margin-left: 26%;
+}
+
+.dimsum {
+  margin-left: 23%;
+}
+
+.poke {
+  margin-left: 25%;
+}
+
+.dessert {
+  margin-left: 27%;
+}
+
+.ramen {
+  margin-left: 30%;
+}
