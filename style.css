@@ -1,0 +1,154 @@
+.container {
+  background: white;
+  color: black;
+}
+
+.padding {
+  padding-top: 25px;
+}
+
+.overlay {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 1170px;
+  height: 672px;
+}
+
+.picture:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.picture {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.textsmall {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.template {
+  background: #E0E0E0;
+  display: grid;
+  border: 1px solid #E0E0E0;
+  grid-template-rows: 1fr 2fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 30px;
+  height: 550px;
+  padding: 25px;
+  padding-top: 35px;
+}
+
+.bg {
+  background: #E0E0E0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  padding: 0 !important;
+}
+.main .main2 {
+  display: inline-block;
+}
+.main .main2:hover {
+  background-color: white;
+}
+.main .main2:hover .drop {
+  display: block;
+}
+.main .main2 .drop {
+  position: absolute;
+  width: 90px;
+  display: none;
+  z-index: 1000;
+  background-color: white;
+}
+.main .main2 .drop .menu {
+  background-color: white;
+  display: block;
+  z-index: 1000;
+}
+.main .main2 .drop .menu .link {
+  display: block !important;
+}
+.main .main2 .drop .menu:hover {
+  background: #f3f3f3;
+}
+
+.drop {
+  font-size: 13px;
+}
+.width {
+  width: 110px;
+  margin: 0 6px;
+}
+
+.padding-left {
+  padding-left: 30px;
+}
+.aboutbox {
+  border: 0.5px black solid;
+  width: 566px;
+  height: 465px;
+  padding-left: 5px;
+  display: grid;
+  grid-template: 5fr 3fr / 1fr 7fr 1fr 9fr 1fr;
+  grid-gap: 10px 5px;
+}
+
+.one {
+  grid-area: 1/2/2/3;
+}
+.two {
+  grid-area: 1/4 / span 2/5;
+}
+.three {
+  grid-area: 2/2 / span 1/3;
+}
+
+.bio {
+  padding: 100px 0px;
+}
+
+.middle {
+  display: inline-block;
+}
+
+.twenty {
+  color: black;
+}

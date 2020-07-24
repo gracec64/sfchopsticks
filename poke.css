@@ -1,0 +1,190 @@
+.container {
+  background: white;
+  color: black;
+}
+
+.padding {
+  padding: 25px 0 0 0 !important;
+}
+
+.width {
+  width: 110px;
+  margin: 0 6px;
+}
+
+.welcomebox {
+  width: 1170px;
+  height: 150px;
+  border: 1.5px solid black;
+  color: black;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.65);
+  width: 1170px;
+  height: 672px;
+}
+
+.picture:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.picture {
+  position: relative;
+}
+
+.textsmall {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.template {
+  background: #E0E0E0;
+  display: grid;
+  border: 1px solid #E0E0E0;
+  grid-template-rows: 1fr 2fr 3fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 30px;
+  height: 550px;
+  padding: 25px;
+  padding-top: 35px;
+}
+
+.item {
+  align-content: center;
+}
+
+.one {
+  grid-area: 1/1/2/2;
+}
+.two {
+  grid-area: 2/1/3/2;
+}
+.three {
+  grid-area: 3/1/4/2;
+}
+.four {
+  grid-area: 4/1 / span 1/ 2;
+}
+.five {
+  grid-area: 1/2/4 / span 1;
+}
+
+.a {
+  grid-area: 1/1/4/2;
+}
+.b {
+  grid-area: 1/2/2 / span 1;
+}
+.c {
+  grid-area: 2/2/3 / span 1;
+}
+.d {
+  grid-area: 3/2/4 / span 1;
+}
+.e {
+  grid-area: 4/2 / span 1 / span 1;
+}
+
+.bg {
+  background: #E0E0E0;
+}
+
+.learn {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #595459;
+  display: inline-block;
+  cursor: pointer;
+  color: #4d454d;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 6px 25px;
+  text-decoration: none;
+}
+.learn:hover {
+  background-color: grey;
+}
+.learn:active {
+  position: relative;
+  top: 1px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
+.main {
+  padding: 0 !important;
+}
+.main .main2 {
+  display: inline-block;
+}
+.main .main2:hover {
+  background-color: white;
+}
+.main .main2:hover .drop {
+  display: block;
+}
+.main .main2 .drop {
+  position: absolute;
+  width: 90px;
+  display: none;
+  z-index: 1000;
+  background-color: white;
+}
+.main .main2 .drop .menu {
+  background-color: white;
+  display: block;
+  z-index: 1000;
+}
+.main .main2 .drop .menu .link {
+  display: block !important;
+}
+.main .main2 .drop .menu:hover {
+  background: #f3f3f3;
+}
+
+.drop {
+  font-size: 13px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none !important;
+}
